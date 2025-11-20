@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding:10px;
+    font-family: Arial, sans-serif;
+    /* Aplica a mesma família de fontes a todos os elementos */
+    font-size: 26px;
+    background-color: #d318aa;
+}
+
+html {
+   font-size: 16px; /*Define o tamanho da fonte base para todo o documento*/
+}
+body {
+   font-size: 1rem; /* Igual a 16px */
+   margin: 0.5rem; /* 8px */
+   text-align: center;
+}
+h1 {
+   font-size: 2rem; /* 32px */
+}
+p {
+    font-size: 150%; /* 150% do tamanho da fonte do elemento pai */
+}
+h1 {
+    font-size: 5vw; /* O tamanho da fonte é 5% da largura da viewport */
+}
+body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-weight: bold;            /* Negrito */
+        }
+        p.light {
+            font-weight: 300;            /* Peso de fonte leve */
+        }
+        p.normal {
+            font-weight: normal;            /* Peso de fonte normal */
+        }
+        p.bold {
+            font-weight: 800;            /* Peso de fonte muito grosso */
+        }
+        strong {
+            font-weight: bolder;        /* Mais grosso que o elemento pai */
+        }
+        
+        

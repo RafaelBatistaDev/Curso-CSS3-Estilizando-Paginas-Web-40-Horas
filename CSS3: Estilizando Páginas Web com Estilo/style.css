@@ -1,8 +1,8 @@
-{
+* {
     margin: 0;
     padding: 10;
-    font-family: Arial, sans-serif;
-    center: center;
+    font-family:(Arial, sans-serif);
+    text-align: center;
     /* Aplica a mesma família de fontes a todos os elementos */
 }
 
@@ -13,7 +13,6 @@ body {
 a {
     color: red;
     font-size: 26px;
-    center: center;
 }
 p {
     font-size: 36px;
@@ -101,4 +100,7 @@ p::first-letter {
 }
 .texto-padrao {
     color: yellow; /* Outra cor padrão para todos os parágrafos com classe "texto-padrao" */
+}
+p {
+    font-family: "Georgia";
 }
